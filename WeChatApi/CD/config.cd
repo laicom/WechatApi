@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nlab.WeChatApi.Config.WeChatConfigSection">
+    <Position X="3.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAAEBAAAAQAAAAAAAAAAAAAAEEQQAQAACAAAA=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.ReplyModulesCollection">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAISBAAAAAAAIAAQCAAABAAAAAABAAAAAIIAAAAAAAQ=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.ReplyModulesCollectionElement">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAQAAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.ReplySettingCollection">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAISAAAAAAAAIAAQCAAABAAAAAARAAAAAIIAAAAAAAQ=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.ReplySettingCollectionElement">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAQQAAAAQAQABAAEAAACAMAAQAAAAAA=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.ParametersCollection">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAYSAAAAAAAAIAAQCAAABAAAAAABAAAAAIIAAAAAAAQ=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.ParameterCollectionElement">
+    <Position X="0.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.TemplateCollection">
+    <Position X="1.25" Y="1.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAISAAAAAAAgIAAQCAAABAAAAAABAAAAAIIAAAAAAAQ=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.TemplateCollectionElement">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAQgAAAAAAg=</HashCode>
+      <FileName>Config\WechatConfigSettings.csd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.Config.WeChatConfigManager">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgACAAAAEACAgAAACAAAAAAAAAAAAAAEAAAAAAAgA=</HashCode>
+      <FileName>Config\WechatConfigManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

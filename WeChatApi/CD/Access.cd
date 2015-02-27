@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nlab.WeChatApi.AccessToken">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAA=</HashCode>
+      <FileName>AccessToken\AccessToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.QyTokenProvider">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AccessToken\QyTokenProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.AccessTokenManager">
+    <Position X="8.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAACAAAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>AccessToken\AccessTokenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.AccesTokenProviderBase">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>AccessToken\IAccessTokenProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.MpTokenProvider">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAggAAAAAAAAA=</HashCode>
+      <FileName>AccessToken\MpTokenProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.MediaDataOp">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Nlab.WeChatApi.MediaDataOp.GetMediaResultEntity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ApiModules\MediaDataOp.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApiModules\MediaDataOp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.UserInfoAccess">
+    <Position X="8" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Nlab.WeChatApi.UserInfoAccess.UserIdListResultEntity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ApiModules\UserInfoAccess.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAACAAA=</HashCode>
+      <FileName>ApiModules\UserInfoAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.MenuManage">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>ApiModules\MenuManage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.MessagePusher">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Nlab.WeChatApi.MessagePusher.PushResultEntity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ApiModules\MessagePusher.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ApiModules\MessagePusher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.ReplyModuleBase" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgREAAQAAAAAAAAAEAEQEQMAAUAAgCAg=</HashCode>
+      <FileName>ApiModules\ReplyModuleBase.cs</FileName>
+      <NewMemberFileName>Interface\BaseKeyMatchReply.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.ResultEntity">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ApiModules\ResultEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.SemanticSearch">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Nlab.WeChatApi.SemanticSearch.SemanticSearchEntity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ApiModules\SemanticSearch.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ApiModules\SemanticSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.UserInfo" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAABAEIAAgAAAAABAICAAECAAAAAgAAAAA=</HashCode>
+      <FileName>ApiModules\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Nlab.WeChatApi.IAccessTokenProvider">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>AccessToken\IAccessTokenProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nlab.WeChatApi.IAccessTokenPersistenceProvider">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AccessToken\IAccessTokenProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Nlab.WeChatApi.TParser">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ApiModules\ReplyModuleBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

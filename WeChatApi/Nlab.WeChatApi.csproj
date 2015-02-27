@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A12DEB6E-3692-4081-AC18-2200907C72DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nlab.WeChatApi</RootNamespace>
+    <AssemblyName>Nlab.WeChatApi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessToken\AccessTokenManager.cs" />
+    <Compile Include="AccessToken\JsSdk.cs" />
+    <Compile Include="AccessToken\MpTokenProvider.cs" />
+    <Compile Include="AccessToken\QyTokenProvider.cs" />
+    <Compile Include="ApiModules\MenuManage.cs" />
+    <Compile Include="Config\WechatConfigManager.cs" />
+    <Compile Include="Config\WechatConfigSettings.csd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WechatConfigSettings.csd</DependentUpon>
+    </Compile>
+    <Compile Include="AccessToken\AccessToken.cs" />
+    <Compile Include="ApiModules\MediaDataOp.cs" />
+    <Compile Include="AccessToken\IAccessTokenProvider.cs" />
+    <Compile Include="ApiModules\UserInfoAccess.cs" />
+    <Compile Include="Handler\WechatMenuUtility.cs" />
+    <Compile Include="Logger\NlabLogger.cs" />
+    <Compile Include="Messaging\Entity\VideoMessage.cs" />
+    <Compile Include="Messaging\Entity\VoiceMessage.cs" />
+    <Compile Include="Messaging\Entity\ImageMessage.cs" />
+    <Compile Include="Messaging\Entity\SubscribeEventMessage.cs" />
+    <Compile Include="Messaging\Entity\UnSubscribeEventMessage.cs" />
+    <Compile Include="Messaging\Entity\MenuClickEventMessage.cs" />
+    <Compile Include="Messaging\Entity\QrScanEventMessage.cs" />
+    <Compile Include="Messaging\Entity\PushNewsMessage.cs" />
+    <Compile Include="Messaging\IPushMessage.cs" />
+    <Compile Include="Handler\IReplyHandleModule.cs" />
+    <Compile Include="Messaging\IIncomeMessage.cs" />
+    <Compile Include="Messaging\IReplyMessage.cs" />
+    <Compile Include="Messaging\MessageBase.cs" />
+    <Compile Include="Messaging\IWechatMessage.cs" />
+    <Compile Include="Messaging\MessageExtent.cs" />
+    <Compile Include="ApiModules\MessagePusher.cs" />
+    <Compile Include="Messaging\Entity\PushTextMessage.cs" />
+    <Compile Include="ApiModules\ReplyModuleBase.cs" />
+    <Compile Include="Messaging\MessageTypes.cs" />
+    <Compile Include="ApiModules\ResultEntity.cs" />
+    <Compile Include="ApiModules\UserInfo.cs" />
+    <Compile Include="Messaging\MessageHelper.cs" />
+    <Compile Include="Messaging\Entity\TextMessage.cs" />
+    <Compile Include="Handler\ReplyHandleChains.cs" />
+    <Compile Include="Handler\WeChatHandlerBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Messaging\Entity\LocationEventMessage.cs" />
+    <Compile Include="Messaging\Entity\LinkMessage.cs" />
+    <Compile Include="Messaging\Entity\EventMessage.cs" />
+    <Compile Include="Messaging\Entity\ReplyTextMessage.cs" />
+    <Compile Include="Messaging\Entity\ReplyMusicMessage.cs" />
+    <Compile Include="Messaging\Entity\ReplyNewsMessage.cs" />
+    <Compile Include="Handler\WechatChainsHandler.cs" />
+    <Compile Include="Handler\WechatConfigurableChainsHandler.cs" />
+    <Compile Include="ApiModules\SemanticSearch.cs" />
+    <Compile Include="Utilities\Cryptography.cs" />
+    <Compile Include="Utilities\MessageCrypt.cs" />
+    <Compile Include="Handler\WechatApiException.cs" />
+    <Compile Include="Utilities\WxApiUtils.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="CD\Access.cd" />
+    <None Include="CD\config.cd" />
+    <None Include="CD\WechatAipMessageModel2.cd" />
+    <None Include="Config\WechatConfigSettings.csd">
+      <Generator>CsdFileGenerator</Generator>
+      <LastGenOutput>WechatConfigSettings.csd.cs</LastGenOutput>
+    </None>
+    <None Include="Config\WechatConfigSettings.csd.config">
+      <DependentUpon>WechatConfigSettings.csd</DependentUpon>
+    </None>
+    <None Include="Config\WechatConfigSettings.csd.diagram">
+      <DependentUpon>WechatConfigSettings.csd</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Config\WechatConfigSettings.csd.xsd">
+      <DependentUpon>WechatConfigSettings.csd</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CD\WechatAipMessageModel.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

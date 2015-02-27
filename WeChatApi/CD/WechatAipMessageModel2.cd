@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nlab.WeChatApi.ReplyModuleBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgREAAQAAAAAAAAAEAEQEQMAAUAAgCAg=</HashCode>
+      <FileName>ApiModules\ReplyModuleBase.cs</FileName>
+      <NewMemberFileName>Interface\BaseKeyMatchReply.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.VideoMessage">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\VideoMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.MessageBase" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAIAAAAAAAAAEQAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Messaging\MessageBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.MessageExtent" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAASAogAAAAAAAAAAAAAAAIAAAEAAAAAACAg=</HashCode>
+      <FileName>Messaging\MessageExtent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.UnSubscribeEventMessage">
+    <Position X="12.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\UnSubscribeEventMessage.cs</FileName>
+      <NewMemberFileName>MessageEntity\Copy of SubscribeEventMessage.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.LinkMessage">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAgAEAAAAAAAAAAAAAAAAAACAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\LinkMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.LocationEventMessage">
+    <Position X="10.25" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEQA=</HashCode>
+      <FileName>Messaging\Entity\LocationEventMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.ReplyMusicMessage">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAEAgAEAAAAAAAAAAAAAAAAAAAAAAAABAAQA=</HashCode>
+      <FileName>Messaging\Entity\ReplyMusicMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.ReplyNewsMessage">
+    <Position X="5.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\ReplyNewsMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.Article">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAgCEAAAAAAAAAAAAQAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\Entity\ReplyNewsMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.ReplyTextMessage">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\ReplyTextMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.TextMessage">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\TextMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.MessageHelper" Collapsed="true">
+    <Position X="2.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEABAACAAAAAAAEAAgACAkAAgUAAAAACAAgAIgI=</HashCode>
+      <FileName>Messaging\MessageHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.ReplyHandleChains" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAQAAAAAAAAAAAAEAAEAAAAAAAAABAAA=</HashCode>
+      <FileName>Handler\ReplyHandleChains.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.WeChatChainsHandler" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAABACAAAAAgAQCEAAAACAEQAAAEAAAAAAY=</HashCode>
+      <FileName>Handler\WechatChainsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.WeChatHandlerBase" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAgiAGDABAOACCgAIBQQAQKEAIEACIIQQIAGAAACAAY=</HashCode>
+      <FileName>Handler\WeChatHandlerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.EventMessage" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\EventMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nlab.WeChatApi.MenuClickEventMessage" Collapsed="true">
+    <Position X="13" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\MenuClickEventMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nlab.WeChatApi.QrScanEventMessage" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Messaging\Entity\QrScanEventMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Nlab.WeChatApi.IIncomeMessage" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Messaging\IIncomeMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nlab.WeChatApi.IReplyHandleModule" Collapsed="true">
+    <Position X="2.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Handler\IReplyHandleModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nlab.WeChatApi.IReplyMessage" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\IReplyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nlab.WeChatApi.IPushMessage" Collapsed="true">
+    <Position X="3" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messaging\IPushMessage.cs</FileName>
+      <NewMemberFileName>Interface\IWechatMessage.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

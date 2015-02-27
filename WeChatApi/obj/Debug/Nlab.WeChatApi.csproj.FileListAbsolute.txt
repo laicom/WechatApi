@@ -1,0 +1,11 @@
+J:\HomeLab\WeChat\WeChatApi\bin\Debug\Nlab.WeChatApi.dll
+J:\HomeLab\WeChat\WeChatApi\bin\Debug\Nlab.WeChatApi.pdb
+J:\HomeLab\WeChat\WeChatApi\bin\Debug\Newtonsoft.Json.dll
+J:\HomeLab\WeChat\WeChatApi\obj\Debug\Nlab.WeChatApi.dll
+J:\HomeLab\WeChat\WeChatApi\obj\Debug\Nlab.WeChatApi.pdb
+J:\HomeLab\WeChat\WeChatApi\obj\Debug\Nlab.WeChatApi.csprojResolveAssemblyReference.cache
+E:\Projects\WeChat141118\WeChatApi\bin\Debug\Nlab.WeChatApi.dll
+E:\Projects\WeChat141118\WeChatApi\bin\Debug\Nlab.WeChatApi.pdb
+E:\Projects\WeChat141118\WeChatApi\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\WeChat141118\WeChatApi\obj\Debug\Nlab.WeChatApi.dll
+E:\Projects\WeChat141118\WeChatApi\obj\Debug\Nlab.WeChatApi.pdb
